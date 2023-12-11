@@ -6,6 +6,7 @@ import br.com.arq.entity.Users;
  
 public interface UsersRepository extends MongoRepository<Users, String> {
 	
+	
 	public Users findByEmail(String email);
 	
 }

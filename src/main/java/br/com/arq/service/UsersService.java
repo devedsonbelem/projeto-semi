@@ -16,7 +16,6 @@ public class UsersService implements IUsersService {
 	private final UsersRepository usersRepository;
 
 	public UsersService(UsersRepository usersRepository) {
-		super();
 		this.usersRepository = usersRepository;
 	}
 

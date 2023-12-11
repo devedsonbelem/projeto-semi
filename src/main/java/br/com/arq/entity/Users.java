@@ -15,6 +15,10 @@ public class Users {
 	private String status;
 
 	private String password;
+	
+	private String roles;
+	
+	private String token;
 
 	public Users() {
 
@@ -74,5 +78,24 @@ public class Users {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
+	}
+
+	public String getRoles() {
+		return roles;
+	}
+
+	public void setRoles(String roles) {
+		this.roles = roles;
+	}
+	
+	
+	
 
 }

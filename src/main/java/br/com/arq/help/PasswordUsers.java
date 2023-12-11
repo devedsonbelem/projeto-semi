@@ -10,7 +10,8 @@ public class PasswordUsers {
 		return hash;
 	 }
 	 
-	 
+	                            //senha sem criptografar
+	                            //resultado da senha criptografada
 	 public static boolean checkPassword(String password, String hash ) {
 		 return BCrypt.checkpw(password, hash);
 	 }
